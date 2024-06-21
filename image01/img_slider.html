@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image slider</title>
+    <style>
+        .nav-arrow{ 
+            display: inline-block ;
+            padding: 5px;
+            background-color: rgb(162, 148, 175);
+        }
+        .btn-color{
+            background-color: cornflowerblue;
+            color:azure;
+            border-radius: 8px;
+            
+        }
+    </style>
+    <script>
+          // var number1 = 10;
+           let count_p = 0;
+          // const number3 = 10;
+          const name_p = ["pepe.1.jpg","pepe.2.avif","pepe.3.webp","pepe.4.jpg"];
+          console.log(name_p[count_p]);
+          function forwardPic(){
+            //name_p.length;
+            if(count_p < name_p.length-1){
+                count_p = count_p + 1;
+            }else{
+                count_p = 0;
+            }
+            
+            console.log("count_p= " ,count_p);  
+            console.log("name_p=",name_p[count_p]);
+            console.log( name_p.length);
+
+            document.getElementById("slider").src = name_p[count_p];
+
+          }
+          setInterval(forwardPic, 400);
+
+    </script>
+</head>
+
+<body>
+    <div class="nav-arrow"> 
+        <button class="btn-color" >backward</button>
+        <button class="btn-color" onclick = "forwardPic()">forward</button>
+    </div>
+    <br>
+    <img id="slider" width="700px" height="500px" src="pepe.1.jpg" alt="">
+         
+</body>
+</html>
