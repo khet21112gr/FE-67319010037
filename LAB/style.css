@@ -1,0 +1,40 @@
+.input1{
+    background-color: rgb(206, 165, 245);
+    color: white;
+}
+.input2{
+    background-color: rgb(128, 127, 127);
+    color: white;
+}
+.input3{
+    background-color: rgb(123, 165, 255);
+    color: white;
+}
+.input4{
+    background-color: rgb(32, 45, 165);
+    color: white;
+}
+.input5{
+    background-color: rgb(95, 231, 91);
+    color: white;
+}
+.input6{
+    background-color: rgb(234, 236, 119);
+    color: white;
+}
+.input7{
+    background-color: rgb(223, 124, 66);
+    color: white;
+}
+.input8{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.input9{
+    background-color: rgb(128, 127, 127);
+    color: white;
+}
+
+.background{
+    background-image: url(pic1.webp);
+}
