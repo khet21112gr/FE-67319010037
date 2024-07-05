@@ -1,0 +1,59 @@
+.form-1{
+  position: fixed;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgb(236, 149, 36);
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  color:aliceblue;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 50px;
+  
+  
+}
+.form-2{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(94, 127, 236);
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    color:aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50px;
+    
+  }
+  .form-3{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(181, 66, 235);
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    color:aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50px;
+    
+  }
+
+  .hide{
+         display: none;
+  }
+  .unhide{
+
+  }
+
+
+
+
+
+  
