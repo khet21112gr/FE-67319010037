@@ -1,0 +1,17 @@
+.form_1{
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(127, 214, 255, 0.473);
+    width: 50%;
+    height:60%;
+    padding: 20px;
+    border-color: rgba(63, 245, 214, 0.322);
+    border-style: groove;
+    border-radius: 40px;
+    font-size: 90%;
+    /*display: none;*/
+    
+}
+
